@@ -1,0 +1,21 @@
+.wrapper{
+    display: grid;
+}
+
+.children{
+    justify-self: center;
+}
+
+.wrapper h1{
+    grid-column-start: 1;
+
+    grid-row-start: row1-start;
+    grid-row-end: 1;
+}
+
+.wrapper div{
+    grid-column-start: 1;
+    grid-row-start: row2-start;
+    grid-row-end: 2;
+    margin: 0 auto;
+}

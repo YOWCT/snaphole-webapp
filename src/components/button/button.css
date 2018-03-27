@@ -1,3 +1,24 @@
-.route__button{
-    background: #1e3;
-}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .upload-btn {
+    border:none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 8px 20px;
+
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
